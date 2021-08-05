@@ -3,8 +3,21 @@ body{
     color: seashell;
 }
 
+header{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+footer{
+    background-color:lightseagreen;
+    margin-right: 1700px;
+    padding: 10px ;
+}
+
 a {
-    color: goldenrod;
+    color:sienna;
 }
 
 h1 {
