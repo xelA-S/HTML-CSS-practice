@@ -7,3 +7,26 @@ a {
     color: goldenrod;
 }
 
+h1 {
+    font-size: 60px;
+}
+
+.earth {
+    color: #2a8442;
+}
+
+.earth2 {
+    color: #2a8442;
+}
+
+.red {
+    color: #d33d1f;
+}
+
+.mars2 {
+    color: #d33d1f;
+}
+
+.intro {
+    font-size: 24px;
+}
