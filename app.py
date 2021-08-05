@@ -3,9 +3,9 @@ from flask import Flask,render_template,url_for
 app=Flask(__name__)
 
 
-@app.route("/")
+@app.route("/",  methods = ["GET"])
 def home():
-    return render_template("index.html", methods = ["GET"])
+    return render_template("index.html")
 
 @app.route("/earth", methods = ["GET"])
 def earth():
