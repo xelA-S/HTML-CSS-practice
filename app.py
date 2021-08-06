@@ -15,5 +15,9 @@ def earth():
 def mars():
     return render_template("mars.html")
 
+@app.route("/dinosaurs", methods = ["GET"])
+def dinosaur():
+    return render_template("dinosaur.html")
+
 if __name__ == "__main__":
     app.run(debug=True)
