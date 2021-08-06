@@ -8,13 +8,20 @@ header{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    border: 5px gray dashed
 }
-
+main{
+    margin: 20px;
+    border: solid grey 5px;
+    padding: 8px
+}
 footer{
     background-color:lightseagreen;
     margin-right: 1700px;
+    margin-left: 20px;
     padding: 10px ;
-}
+    border: 5px gray dashed
+}   
 
 a {
     color:sienna;
@@ -22,6 +29,10 @@ a {
 
 h1 {
     font-size: 60px;
+}
+
+strong{
+    color:tomato;
 }
 
 .earth {
